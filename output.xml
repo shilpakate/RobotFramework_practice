@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-07-20T10:25:24.001178" rpa="false" schemaversion="5">
+<suite id="s1" name="Open Google" source="C:\Users\One\Desktop\Robot_framework\open_google.robot">
+<test id="s1-t1" name="TestNavigateUrl" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-20T10:25:24.301398" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-20T10:25:24.301398" elapsed="3.151212"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-20T10:25:27.454769" elapsed="0.069865"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-20T10:25:32.526204" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-20T10:25:27.525655" elapsed="5.001580"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${pg_title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-07-20T10:25:32.528603" elapsed="0.002025"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-20T10:25:32.533864" level="INFO">Typing text 'robotframework' into text field 'xpath://*[@id="APjFqb"]'.</msg>
+<arg>xpath://*[@id="APjFqb"]</arg>
+<arg>robotframework</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-20T10:25:32.531850" elapsed="0.143913"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-20T10:25:32.677219" level="INFO">Clicking element 'xpath:/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]'.</msg>
+<arg>xpath:/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-20T10:25:32.675763" elapsed="0.294658"/>
+</kw>
+<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
+<arg>xpath://*[@id="APjFqb"]</arg>
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<status status="PASS" start="2024-07-20T10:25:32.971439" elapsed="1.314225"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-07-20T10:25:34.315451" level="INFO">Element 'xpath://*[@id="APjFqb"]' is displayed.</msg>
+<arg>xpath://*[@id="APjFqb"]</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-20T10:25:34.286660" elapsed="0.028791"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>xpath://*[@id="APjFqb"]</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-20T10:25:34.316583" elapsed="0.054755"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-20T10:25:37.371802" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-20T10:25:34.371338" elapsed="3.000464"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-20T10:25:37.372922" elapsed="3.817932"/>
+</kw>
+<status status="PASS" start="2024-07-20T10:25:24.300440" elapsed="16.891860"/>
+</test>
+<status status="PASS" start="2024-07-20T10:25:24.002142" elapsed="17.192695"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Open Google">Open Google</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
