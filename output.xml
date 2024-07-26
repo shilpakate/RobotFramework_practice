@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-07-25T15:34:57.184801" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-07-26T16:44:35.706411" rpa="false" schemaversion="5">
 <suite id="s1" name="PracticeAutomation login" source="C:\Users\One\Desktop\Robot_framework\PracticeAutomation_login.robot">
 <test id="s1-t1" name="User Login" line="12">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-07-25T15:34:57.433421" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login'.</msg>
+<msg time="2024-07-26T16:44:35.977935" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login'.</msg>
 <arg>${URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-07-25T15:34:57.432405" elapsed="5.680239"/>
+<status status="PASS" start="2024-07-26T16:44:35.977935" elapsed="5.698096"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-07-25T15:35:03.115241" elapsed="0.040493"/>
+<status status="PASS" start="2024-07-26T16:44:41.677043" elapsed="0.042357"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-25T15:35:06.156907" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-07-26T16:44:44.723282" level="INFO">Slept 3 seconds.</msg>
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-25T15:35:03.156732" elapsed="3.000175"/>
+<status status="PASS" start="2024-07-26T16:44:41.722901" elapsed="3.000381"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-07-25T15:35:06.158561" level="INFO">Typing text 'student' into text field 'id=username'.</msg>
+<msg time="2024-07-26T16:44:44.723282" level="INFO">Typing text 'student' into text field 'id=username'.</msg>
 <arg>${username_id}</arg>
 <arg>student</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-25T15:35:06.158048" elapsed="0.139069"/>
+<status status="PASS" start="2024-07-26T16:44:44.723282" elapsed="0.113463"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-07-25T15:35:06.299076" level="INFO">Typing text 'Password123' into text field 'id=password'.</msg>
+<msg time="2024-07-26T16:44:44.838057" level="INFO">Typing text 'Password123' into text field 'id=password'.</msg>
 <arg>${password_id}</arg>
 <arg>Password123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-25T15:35:06.297117" elapsed="0.108447"/>
+<status status="PASS" start="2024-07-26T16:44:44.837833" elapsed="0.084485"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-07-25T15:35:06.405564" level="INFO">Clicking element 'id=submit'.</msg>
+<msg time="2024-07-26T16:44:44.923495" level="INFO">Clicking element 'id=submit'.</msg>
 <arg>${submit_id}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-07-25T15:35:06.405564" elapsed="2.530550"/>
+<status status="PASS" start="2024-07-26T16:44:44.923495" elapsed="1.761262"/>
 </kw>
 <kw name="Element Text Should Be" owner="SeleniumLibrary">
-<msg time="2024-07-25T15:35:08.936633" level="INFO">Verifying element 'xpath=//*[@id="loop-container"]/div/article/div[1]/h1' contains exact text 'Logged In Successfully'.</msg>
+<msg time="2024-07-26T16:44:46.685757" level="INFO">Verifying element 'xpath=//*[@id="loop-container"]/div/article/div[1]/h1' contains exact text 'Logged In Successfully'.</msg>
 <arg>${success_message}</arg>
 <arg>Logged In Successfully</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<status status="PASS" start="2024-07-25T15:35:08.936633" elapsed="0.032479"/>
+<status status="PASS" start="2024-07-26T16:44:46.685757" elapsed="0.048474"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-07-25T15:35:09.969720" level="INFO">Slept 1 second.</msg>
+<msg time="2024-07-26T16:44:47.734497" level="INFO">Slept 1 second.</msg>
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-07-25T15:35:08.969112" elapsed="1.000608"/>
+<status status="PASS" start="2024-07-26T16:44:46.734231" elapsed="1.000266"/>
 </kw>
-<status status="PASS" start="2024-07-25T15:34:57.431325" elapsed="12.538900"/>
+<status status="PASS" start="2024-07-26T16:44:35.976767" elapsed="11.757730"/>
 </test>
-<status status="PASS" start="2024-07-25T15:34:57.186964" elapsed="12.783261"/>
+<status status="PASS" start="2024-07-26T16:44:35.708576" elapsed="12.025921"/>
 </suite>
 <statistics>
 <total>
