@@ -1,0 +1,9 @@
+datasources:97c2aaa864a95a7375e6b7ee8ec7723393e3f486
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:9052d5f8c68faf65eba87f9a43177b25e5a55e9e
+--suite Suites.Test Login
+--suite Suites.Test Suite
+--suite Suites.Test Suite Another
+--suite Suites.Test Suite By Sir
+--suite Suites.Test Ddt Excel And Csv

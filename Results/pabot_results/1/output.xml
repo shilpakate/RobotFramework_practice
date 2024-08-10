@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-08-10T11:12:13.680356" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Suite" source="C:\Users\One\Desktop\Robot_framework\testcases\test_suite.robot">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>Opening Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.142792" elapsed="0.001001"/>
+</kw>
+<test id="s1-s1-t1" name="TestSearchEmployee" line="11">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>Login Page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.144791" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is search employee testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.145786" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>Logout Page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.145786" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:14.143793" elapsed="0.001993"/>
+</test>
+<test id="s1-s1-t2" name="TestLogin" line="14">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>Login Page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.146782" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is login testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.146782" elapsed="0.001592"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>Logout Page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.148374" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:14.146782" elapsed="0.001592"/>
+</test>
+<test id="s1-s1-t3" name="TestDeleteEmployee" line="17">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>Login Page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.149372" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is delete employee testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.149372" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>Logout Page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.150374" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:14.148374" elapsed="0.002000"/>
+</test>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>Closing Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-08-10T11:12:14.150374" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:13.714818" elapsed="0.436552"/>
+</suite>
+<status status="PASS" start="2024-08-10T11:12:13.695429" elapsed="0.455941"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Test Suite">Suites.Test Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-10T11:12:13.665180" level="WARN">Error in file 'C:\Users\One\Desktop\Robot_framework\testcases\test_login.robot' on line 56: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

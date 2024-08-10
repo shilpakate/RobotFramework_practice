@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-08-10T11:12:15.300615" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Test Suite Another" source="C:\Users\One\Desktop\Robot_framework\testcases\test_suite_another.robot">
+<test id="s1-s1-t1" name="Valid Login Test" line="13">
+<kw name="LaunchBrowserUrl" owner="login_keyword_pom">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:15.734936" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-10T11:12:15.734936" elapsed="5.936324"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-10T11:12:21.672273" elapsed="0.301082"/>
+</kw>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="PASS" start="2024-08-10T11:12:15.733932" elapsed="6.241551"/>
+</kw>
+<kw name="Set Username" owner="login_keyword_pom">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:21.990559" level="INFO">Typing text 'student' into text field 'name:username'.</msg>
+<arg>${locator_username}</arg>
+<arg>${username_testcase}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-10T11:12:21.988538" elapsed="0.299195"/>
+</kw>
+<arg>student</arg>
+<status status="PASS" start="2024-08-10T11:12:21.980751" elapsed="0.307490"/>
+</kw>
+<kw name="Set Password" owner="login_keyword_pom">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:22.290265" level="INFO">Typing text 'Password123' into text field 'id:password'.</msg>
+<arg>${locator_password}</arg>
+<arg>${password_testcase}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-10T11:12:22.289274" elapsed="0.189088"/>
+</kw>
+<arg>Password123</arg>
+<status status="PASS" start="2024-08-10T11:12:22.288241" elapsed="0.191158"/>
+</kw>
+<kw name="Loginbtn" owner="login_keyword_pom">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:22.481520" level="INFO">Clicking element 'xpath://*[@id="submit"]'.</msg>
+<arg>${locator_submit_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-10T11:12:22.480397" elapsed="1.009283"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:22.479399" elapsed="1.010281"/>
+</kw>
+<kw name="CheckMessage" owner="login_keyword_pom">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:23.515389" level="INFO">Page title is 'Logged In Successfully | Practice Test Automation'.</msg>
+<arg>${locator_message}</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-08-10T11:12:23.491674" elapsed="0.023715"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:23.489680" elapsed="0.026757"/>
+</kw>
+<kw name="CloseBrowser1" owner="login_keyword_pom">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-08-10T11:12:23.517430" elapsed="6.403672"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:23.516437" elapsed="6.404665"/>
+</kw>
+<doc>Verify that a user can log in with valid credentials</doc>
+<status status="PASS" start="2024-08-10T11:12:15.732904" elapsed="14.189262"/>
+</test>
+<test id="s1-s1-t2" name="Invalid Login Test" line="22">
+<kw name="LaunchBrowserUrl" owner="login_keyword_pom">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:29.929750" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-10T11:12:29.928746" elapsed="5.962713"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-10T11:12:35.891459" elapsed="0.161893"/>
+</kw>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="PASS" start="2024-08-10T11:12:29.927105" elapsed="6.126247"/>
+</kw>
+<kw name="Set Username" owner="login_keyword_pom">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:36.064726" level="INFO">Typing text 'studet' into text field 'name:username'.</msg>
+<arg>${locator_username}</arg>
+<arg>${username_testcase}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-10T11:12:36.062016" elapsed="0.562989"/>
+</kw>
+<arg>studet</arg>
+<status status="PASS" start="2024-08-10T11:12:36.056824" elapsed="0.569193"/>
+</kw>
+<kw name="Set Password" owner="login_keyword_pom">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:36.629568" level="INFO">Typing text 'Password1234' into text field 'id:password'.</msg>
+<arg>${locator_password}</arg>
+<arg>${password_testcase}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-10T11:12:36.628529" elapsed="0.206446"/>
+</kw>
+<arg>Password1234</arg>
+<status status="PASS" start="2024-08-10T11:12:36.627016" elapsed="0.210001"/>
+</kw>
+<kw name="Loginbtn" owner="login_keyword_pom">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-08-10T11:12:36.839529" level="INFO">Clicking element 'xpath://*[@id="submit"]'.</msg>
+<arg>${locator_submit_btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-10T11:12:36.838526" elapsed="0.130416"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:36.837017" elapsed="0.131925"/>
+</kw>
+<kw name="Errormsg" owner="login_keyword_pom">
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${error_msg}</arg>
+<arg>Your username is invalid!</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2024-08-10T11:12:36.970948" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:36.969945" elapsed="0.001003"/>
+</kw>
+<kw name="CloseBrowser1" owner="login_keyword_pom">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-08-10T11:12:36.973381" elapsed="6.531066"/>
+</kw>
+<status status="PASS" start="2024-08-10T11:12:36.972370" elapsed="6.533606"/>
+</kw>
+<doc>Verify that a user cannot log in with invalid credentials</doc>
+<status status="PASS" start="2024-08-10T11:12:29.923151" elapsed="13.582825"/>
+</test>
+<status status="PASS" start="2024-08-10T11:12:15.377208" elapsed="28.129823"/>
+</suite>
+<status status="PASS" start="2024-08-10T11:12:15.332859" elapsed="28.177842"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Test Suite Another">Suites.Test Suite Another</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-10T11:12:15.281145" level="WARN">Error in file 'C:\Users\One\Desktop\Robot_framework\testcases\test_login.robot' on line 56: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

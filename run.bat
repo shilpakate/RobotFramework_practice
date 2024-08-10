@@ -1,0 +1,1 @@
+pabot --processes 2 --outputdir Results testcases/*.robot
